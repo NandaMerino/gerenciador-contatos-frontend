@@ -1,0 +1,25 @@
+<p>contatosdetails works!</p>
+
+
+<div>
+    <h3>CADASTRO DE CONTATOS</h3>
+    <div>
+        <div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                Nome
+                <input type="text" name="nome" (keyup.enter)="save()" [(ngModel)]="contato.nome" />
+                Telefone
+                <input type="text" name="telefone" (keyup.enter)="save()" [(ngModel)]="contato.telefone" />
+                E-mail
+                <input type="text" name="email" (keyup.enter)="save()" [(ngModel)]="contato.email" />
+
+                <button type="button" (keyup.enter)="save()"
+                    (click)="save()">
+                    Salvar
+                </button>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+</div>
