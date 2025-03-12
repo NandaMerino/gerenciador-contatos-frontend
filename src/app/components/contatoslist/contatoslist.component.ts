@@ -87,6 +87,7 @@ router = inject(ActivatedRoute);
               confirmButtonText: 'Ok',
             });
             this.listAll();
+            this.new(); // Limpar o formulário
           },
           error: () => {
             Swal.fire({
@@ -106,6 +107,7 @@ router = inject(ActivatedRoute);
               confirmButtonText: 'Ok',
             });
             this.listAll();
+            this.new(); // Limpar o formulário
           },
           error: () => {
             Swal.fire({
@@ -128,7 +130,7 @@ router = inject(ActivatedRoute);
     });
     swalWithBootstrapButtons
       .fire({
-        title: 'Deseja realmente deletar?',
+        title: 'Deseja realmente deletar o cadastro?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonText: 'Sim',
@@ -161,15 +163,14 @@ router = inject(ActivatedRoute);
 
   new() {
     this. contatoEdit = new Contato();
-    //this.modalRef = this.modalService.open(this.modalDetalhe);
   }
 
   edit(contato: Contato) {
-    this.contatoEdit = { ...contato };  // Copiar os dados do contato selecionado
+    this.contatoEdit = { ...contato };
   }
 
   retornoDetalhe(contato: Contato) {
     this.listAll();
-    //this.modalRef.close();
+    
   }
 }

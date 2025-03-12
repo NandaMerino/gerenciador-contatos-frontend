@@ -1,0 +1,146 @@
+.containerForm {
+    background-color: aqua;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.containerTable{
+    padding-top: 50px;
+}
+
+.centralizar {
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    width: 70px; 
+    height: 28px; 
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 5px;
+}
+
+.btn-outline-primary,
+.btn-outline-danger {
+    border-width: 1px; 
+    font-weight: normal; 
+}
+
+.containerTable {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%; 
+    margin: auto;
+    max-width: none; 
+}
+
+table {
+    font-size: 13px;
+    width: 100%; 
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerTeste{
+    display: flex;
+}
+
+.containerCadastro{
+    background-color: #D5E5D5;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #626F47;
+    font-weight: bold;
+
+}
+
+.containerFormulario{
+    margin: 15px;
+    font-size: 13px;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+.containerCadastro {
+    background-color: #D5E5D5;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+
+.input-group input.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-group input.form-control:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5);
+}
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-navbar {
+    background-color: #a8bba8;
+    color: white; 
+}
+
+.navbar {
+    height: 60px;
+}
+
+.containerButton button.btn-outline:hover {
+    background-color: #6c6e9a !important; /* Cor que você quer quando passar o mouse */
+    color: white; /* Cor do texto */
+}
